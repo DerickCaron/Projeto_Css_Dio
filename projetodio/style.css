@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #0f819b;
+
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid var(--cor-terciaria);
+}
+
+#transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url(assets/images/woman-code.png);
+    background-attachment: fixed;/*Este aqui faz com que a imagem do fundo fique fixa no mesmo lugar dando a impressão que ela anda no fundo*/
+    border-top: 1px solid var(--cor-terciaria);
+    border-bottom: 1px solid var(--cor-terciaria);
+    padding: 200px;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content {
+    width: 1300px;
+    text-align: center;
+}
+
+
+
+#professional-challenges {
+    text-align: center;
+    width: 1300px;
+}
+
+.banner-content {
+    color: var(--cor-secundaria);
+    width: 600px; /*Aqui define a a largura do elemento, se aumentar o px ele vai para olado direito*/
+    margin: auto;
+    text-align: center;/*Este alinha o texto*/
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    max-width: 250px;
+    text-shadow: 3px 2px var(--cor-terciaria);
+}
+
+
+p {
+    color: var(--cor-secundaria);
+    margin-bottom: 10px;
+} 
+
+.banner {
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid var(--cor-terciaria); /*Aqui cria uma linha azul no meio da página*/
+}
+
+body {
+    background: var(--cor-primaria);
+}
+.module span {
+    color: var(--cor-terciaria);
+    
+}
+
+
+h2 {
+    font-size: 2rem; /*Aqui eu defini o tamanho das letras*/
+    color: var(--cor-terciaria);
+    margin-bottom: 25px;/*Aqui ele cria um espaçamento entre o elemento abaixo dele*/
+    letter-spacing: 4px;/*Aqui eu defini o espaçamento entre as letras dos títulos*/
+    text-transform: uppercase; /*uppercase usei para deixar as letras do titulo maiusculas*/
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--cor-terciaria);;
+}
+
+.module {
+    color: var(--cor-secundaria);
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid var(--cor-terciaria);
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    margin-left: 400px;
+}
+
+.module:hover {
+    color: chartreuse;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid chartreuse;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    margin-left: 400px;
+}
+
+
+footer a {
+    color: var(--cor-terciaria);
+    font-weight: bold;
+    text-decoration: none; /*Este none tira a linha debaixo do nome da DIO que é clicável*/
+}
+
+button {
+    color: var(--cor-terciaria);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+}
+
+button:hover {
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#dd7310, #0cb607);
+    border-image-slice: 10;
+}
